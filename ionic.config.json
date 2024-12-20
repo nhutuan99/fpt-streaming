@@ -1,0 +1,7 @@
+{
+  "name": "fpt-live-stream",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
