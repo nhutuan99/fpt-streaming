@@ -3,6 +3,7 @@ import { RouteRecordRaw } from "vue-router";
 import HomePage from "../views/HomePage.vue";
 import ChannelDetail from "@/views/ChannelDetail.vue";
 import VodDetail from "@/views/VodDetail.vue";
+import VodDrmDetail from "@/views/VodDrmDetail.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -19,6 +20,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/vod/:id",
     name: "VodDetail",
     component: VodDetail,
+  },
+  {
+    path: "/vod-drm/:id",
+    name: "VodDrmDetail",
+    component: VodDrmDetail,
   },
 ];
 

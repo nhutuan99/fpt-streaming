@@ -10,7 +10,7 @@
       </ion-header>
 
       <div class="p-5">
-        <h1 class="font-bold text-[20px]">Xem truyền hình</h1>
+        <h1 class="font-bold text-[20px] mt-0">Xem truyền hình</h1>
         <div class="flex flex-wrap gap-5">
           <RouterLink
             v-for="channel in channels"
@@ -28,12 +28,28 @@
       <hr />
 
       <div class="p-5">
-        <h1 class="font-bold text-[20px]">Xem phim</h1>
+        <h1 class="font-bold text-[20px] mt-0">Xem phim</h1>
         <div class="flex flex-wrap gap-5">
           <RouterLink
             v-for="channel in vods"
             :key="channel.id"
             :to="`/vod/${channel.id}`"
+          >
+            <img :src="channel.icon" class="w-[150px]" />
+            <div class="text-center mt-2">
+              <strong>{{ channel.name }}</strong>
+            </div>
+          </RouterLink>
+        </div>
+      </div>
+
+      <div class="p-5">
+        <h1 class="font-bold text-[20px] mt-0">Xem phim DRM</h1>
+        <div class="flex flex-wrap gap-5">
+          <RouterLink
+            v-for="channel in drmVods"
+            :key="channel.id"
+            :to="`/vod-drm/${channel.id}`"
           >
             <img :src="channel.icon" class="w-[150px]" />
             <div class="text-center mt-2">
@@ -49,7 +65,7 @@
 <script setup lang="ts">
 import HeaderLayout from "@/components/HeaderLayout.vue";
 
-import { channels, vods } from "@/constants";
+import { channels, vods, drmVods } from "@/constants";
 import {
   IonContent,
   IonHeader,

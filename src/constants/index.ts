@@ -28,4 +28,13 @@ const vods = [
   },
 ];
 
-export { channels, vods };
+const drmVods = [
+  {
+    name: "Lối Sống Kỳ Lạ - DASH",
+    id: "1",
+    icon: "https://images.fptplay53.net/media/OTT/VOD/2024/02/15/loi-song-ky-la-fpt-play-1707981169950_Landscape.jpg?w=300&c=0&fmt=webp",
+    src: "https://vod01-cdn.fptplay.net/POVOD/encoded/2024/05/12/strangewayoflife-2023-es-1715530274/H264/dash_drm/stream.mpd",
+  },
+];
+
+export { channels, vods, drmVods };
