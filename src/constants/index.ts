@@ -9,7 +9,7 @@ const channels = [
     name: "VTV3",
     id: "vtv-3",
     icon: "https://images.fptplay53.net/media/channels/icon_channel_vtv3-hd_165657381668.png?w=300&c=0&fmt=webp",
-    src: "https://vips-livecdn.fptplay.net/MTk3OTkyNXx2dHYzaGRfYWJyLnNtaWx8ZnB0fDE3MzQ5MjA3ODF8MjEuMjQwLjIxNy43NHxjZjgyYTU2OTBkYzk2ZmRlNjhmNGM1Y2U2ZTI4MGFmMg/fnxch2/vtv3hd_abr.smil/playlist.m3u8",
+    src: "https://vips-livecdn.fptplay.net/MTA4NDUxNDB8dnR2M2hkX2Fici5zbWlsfGZwdHwxNzM0OTQyNjAxfDIxLjI0MC4yMTcuNzR8YjFlZDYxNGRiZWNkNDczMzNhNzNlYzI3NTU1ZjI0Mjg/fnxch2/vtv3hd_abr.smil/playlist.m3u8",
   },
 ];
 
