@@ -1,8 +1,9 @@
 <template>
   <ion-header :translucent="true">
     <ion-toolbar>
-      <div class="flex items-center px-5">
+      <div class="flex items-center px-5 gap-8">
         <a href="/">Home</a>
+        <a href="/token">Token</a>
       </div>
     </ion-toolbar>
   </ion-header>

@@ -4,6 +4,7 @@ import HomePage from "../views/HomePage.vue";
 import ChannelDetail from "@/views/ChannelDetail.vue";
 import VodDetail from "@/views/VodDetail.vue";
 import VodDrmDetail from "@/views/VodDrmDetail.vue";
+import TokenPage from "@/views/TokenPage.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -25,6 +26,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/vod-drm/:id",
     name: "VodDrmDetail",
     component: VodDrmDetail,
+  },
+  {
+    path: "/token",
+    name: "TokenPage",
+    component: TokenPage,
   },
 ];
 
