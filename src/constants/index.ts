@@ -3,13 +3,13 @@ const channels = [
     name: "VTV1",
     id: "vtv-1",
     icon: "https://images.fptplay53.net/media/channels/icon_channel_vtv1-hd_165657381026.png?w=300&c=0&fmt=webp",
-    src: "https://vips-livecdn.fptplay.net/MTA4NDUxNDB8dnR2MWhkX2Fici5zbWlsfGZwdHwxNzM1MDA2ODY3fDIxLjI0MC4yMTcuNzR8MzI2YTZkOTI5ODRmM2U3MjgxMDI3NWRjYmQxNTczNjE/fnxch2/vtv1hd_abr.smil/playlist.m3u8",
+    src: "https://vips-livecdn.fptplay.net/MTA4NDUxNDB8dnR2MWhkX2Fici5zbWlsfGZwdHwxNzM1MDkwNTM4fDIxLjI0MC4yMTcuNzR8NDViNzA0MjNjZjY1YTNjNDlmMzk0MGQ2OTcxODM0N2E/fnxch2/vtv1hd_abr.smil/playlist.m3u8",
   },
   {
     name: "VTV3",
     id: "vtv-3",
     icon: "https://images.fptplay53.net/media/channels/icon_channel_vtv3-hd_165657381668.png?w=300&c=0&fmt=webp",
-    src: "https://vips-livecdn.fptplay.net/MTA4NDUxNDB8dnR2M2hkX2Fici5zbWlsfGZwdHwxNzM1MDA2OTI2fDIxLjI0MC4yMTcuNzR8MjFmNjE4YjEwYjRjNDNhNzVlNWQ4ZjdiMGQ1NTEzMTE/fnxch2/vtv3hd_abr.smil/playlist.m3u8",
+    src: "https://vips-livecdn.fptplay.net/MTA4NDUxNDB8dnR2M2hkX2Fici5zbWlsfGZwdHwxNzM1MDkwNjE3fDIxLjI0MC4yMTcuNzR8MDU0N2I3M2UyZTE0MmY5MmI1N2Q2MTM5YjAzM2FkNWM/fnxch2/vtv3hd_abr.smil/playlist.m3u8",
   },
 ];
 
